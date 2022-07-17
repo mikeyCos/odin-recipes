@@ -2,5 +2,6 @@
 Basic recipe website
 
 1. The Odin Project | Project: Recipes
-2. HTML files only
-3. Definitely not a brutalist web design
+2. HTML and external CSS file
+3. Three recipes as of 17 JUL 2022
+4. Definitely not a brutalist web design

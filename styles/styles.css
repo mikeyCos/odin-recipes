@@ -13,12 +13,16 @@ h3 {
 
 .description p {
     margin-left: 5%;
+    line-height: 2;
 }
 
 h1 {
     font-size: 40px;
     color:#ffffff;
     font-style: italic;
+    text-align: center;
+    margin-left: 2.5%;
+    margin-bottom: -0.00075%;
 }
 
 .ingredients li {
@@ -48,6 +52,12 @@ ol li,
 ul {
     margin-left: 5%;
 }
+
+.nav-picture:hover {
+    opacity: 0.5;
+    border: 0.5em solid rgb(255, 252, 243);
+}
+
 #nav-home:link,
 #nav-home:visited,
 #nav-home:active {
@@ -55,16 +65,37 @@ ul {
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    border-style: inset;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#nav-home:hover {
+    background-color: rgb(231, 178, 113);
+}
+
+.nav-home-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
 }
 
 .nav-receipe,
 .nav-home {
     list-style: none;
+    padding: 0.5% 0.5%;
+}
+
+.nav-select-recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .nav-picture {
-    width: 15%;
-    height: auto;
+    width: auto;
+    height: 400px;
 }
 
 img {
@@ -72,6 +103,11 @@ img {
     height: auto;
 }
 
+div img {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
 body {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(202, 174, 145);
 }
