@@ -1,0 +1,77 @@
+h1, h2, h3, p {
+    font-family:Verdana, "Geneva", Tahoma, sans-serif;
+    text-indent: 5%;
+}
+
+.description h2 {
+    margin-left: 10%;
+}
+
+h3 {
+    margin-left: 2.5%;
+}
+
+.description p {
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    color:#ffffff;
+    font-style: italic;
+}
+
+.ingredients li {
+    font-size: 1.5em;
+    list-style: square;
+    padding: 0.5%;
+}
+
+ol li,
+.notes {
+    font-size: 22px;
+    padding: 0.5%;
+    margin-left: 10%;
+}
+
+.notes li {
+    padding: 0.5%;
+}
+
+.steps {
+    padding-top: 2%;
+    border-top:rgb(0, 0, 0);
+    border-top-style: double;
+    border-width: 5px;
+}
+
+ul {
+    margin-left: 5%;
+}
+#nav-home:link,
+#nav-home:visited,
+#nav-home:active {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-receipe,
+.nav-home {
+    list-style: none;
+}
+
+.nav-picture {
+    width: 15%;
+    height: auto;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
