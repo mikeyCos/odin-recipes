@@ -53,11 +53,6 @@ ul {
     margin-left: 5%;
 }
 
-.nav-picture:hover {
-    opacity: 0.5;
-    border: 0.5em solid rgb(255, 252, 243);
-}
-
 #nav-home:link,
 #nav-home:visited,
 #nav-home:active {
@@ -66,36 +61,35 @@ ul {
     text-decoration: none;
     color: rgb(0, 0, 0);
     border-style: inset;
-    border-radius: 15px;
-    padding: 5px;
-}
+    }
 
 #nav-home:hover {
     background-color: rgb(231, 178, 113);
 }
 
-.nav-home-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
-.nav-receipe,
 .nav-home {
     list-style: none;
     padding: 0.5% 0.5%;
 }
 
-.nav-select-recipe {
+.nav-container {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    gap: 1em;
+    margin-top: 5em;
 }
 
 .nav-picture {
     width: auto;
     height: 400px;
+}
+
+.nav-picture:hover {
+    opacity: 0.5;
+    border: 0.5em solid rgb(255, 252, 243);
 }
 
 img {
